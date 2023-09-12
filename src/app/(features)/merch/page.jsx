@@ -22,7 +22,7 @@ export default function Home() {
                         Store
                     </h1>
                     <p className="font-mono">
-                        C
+                        Coming soon...
                     </p>
 
                 </div>

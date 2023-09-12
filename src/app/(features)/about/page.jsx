@@ -1,4 +1,3 @@
-
 "use client";
 
 import {
@@ -16,7 +15,14 @@ import {
 import Link from "next/link";
 import { useState } from "react";
 
+import { Collapsable } from "@/app/components/Collapsable";
 
+import { Experience,
+        Stack,
+        NextjsProject,
+        SolidityProject, 
+        BreadthFirstSearchProject
+        } from "../../../../public/text/about";
 
 // function to render the pdf if clicked
 function RenderResume({ handleResumeClick }) {
@@ -39,10 +45,6 @@ export default function Home() {
         setResumeVisibility((prevVisibility) => !prevVisibility);
     };
 
-    const [openCollapse, setOpenCollapse] = useState(false);
-
-    const toggleOpen = () => setOpenCollapse((cur) => !cur);
-
 
 
     return (
@@ -56,28 +58,33 @@ export default function Home() {
 
 
                 </div>
+               
                 <div className="flex flex-col ml-10 p-5 font-mono">
                 <div className="mb-4">
-
-
-                    <Button color="white" fullWidth={false} size="md" className="font-mono" variant="gradient" onClick={toggleOpen}>My history</Button>
-                    <Collapse open={openCollapse}>
-                        <Card className="font-mono text-white bg-transparent">
-                            <CardBody >
-                                <Typography className="font-mono">
-                                    I have extensive commercial experience as a backend developer primarily using Python and SQL. During my current tenure, I have worked on my company's proprietary data modeling software,
-                                    developing new features in an agile environment. I wrote clean, testable code, adhering to the best practices of Software Development. Additionally, I ran many different 
-                                    products on a weekly basis for our company which involved using a diverse tech stack. I have since become more interested in fullstack development and Web3 and 
-                                    have been steadily learning and building projects to further my understanding. 
-                                </Typography>
-                            </CardBody>
-                        </Card>
-                    </Collapse>
+                        I'm James, a fullstack developer. <br/>
+                         Click the buttons find out more. 
+            
                     </div>
+                    <div className="mb-4">
+                        <Collapsable btnName="My experience" fullWidth={true} text={Experience} _className="font-mono w-80" />
+                    </div>
+                    <div className="mb-4">
+                        <Collapsable  btnName="Tech Stack" fullWidth={true} text={Stack} _className="font-mono w-80"/>
+                    </div>
+                    <div className="mb-4">
+                        <Collapsable btnName="Projects" fullWidth={true} text={
+                            <>
+                        <Collapsable className="mb-4" btnName="Next.js App" text={NextjsProject} _className="font-mono w-64 mb-2"/>
+                        <Collapsable className="mb-4" btnName="Smart Contracts" text={SolidityProject} _className="font-mono w-64 mb-2"/>
+                        <Collapsable className="mb-4" btnName="Six Degrees of Separation" text={BreadthFirstSearchProject} _className="font-mono w-64 mb-2"/>
+                        </>
+                        } _className="font-mono w-80" />
+                    </div>
+                    
 
 
 
-                    <div className="mb-4 w-40">
+                    <div className="mb-4">
                         <Menu>
                             <MenuHandler>
                                 <Button color="white" fullWidth={false} size="md" className="font-mono" variant="gradient">
