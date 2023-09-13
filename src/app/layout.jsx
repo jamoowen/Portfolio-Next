@@ -11,7 +11,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
     
-      <body className={`${inter.className} bg-gradient-to-tr from-stone-950 to-stone-800`}>
+      <body className={`${inter.className}`} style={{backgroundImage: `url("/images/subtle.jpeg")`,
+            height: "100vh",
+            backgroundRepeat: "no-repeat",
+            backgroundSize: "cover"
+}}>
      
       {children}</body>
     </html>

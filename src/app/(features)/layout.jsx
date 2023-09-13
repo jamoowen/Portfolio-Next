@@ -22,9 +22,11 @@ export default function RootLayout({ children }) {
     { label: 'Contact', path: '/contact' },
     { label: 'Donate', path: '/donate' }
   ]
-
+// import su from "../../../public/images/subtle"
 
   return (
+    <>
+    
     <main>
 
       <nav className="flex sm:justify space-x-4 font-pixel">
@@ -49,5 +51,6 @@ export default function RootLayout({ children }) {
 
 
     </main>
+    </>
   )
 }
