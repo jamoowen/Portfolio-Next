@@ -1,4 +1,4 @@
-const Experience = <>I have extensive commercial experience as a backend developer primarily using Python and SQL. During my current tenure, I have worked on my company's proprietary data modeling software,
+const Experience = <>I have extensive commercial experience as a backend developer, primarily using Python and SQL. During my current tenure, I have worked on my company's proprietary data modeling software,
   developing new features in an agile environment. I wrote clean, testable code, adhering to the best practices of Software Development. Additionally, I ran many different
   products as part of the SAAS offered to clients. I used a diverse range of technologies and have been exposed to different architectures and paradigms. 
   I have since become more interested in fullstack development and Web3 and
@@ -13,7 +13,8 @@ const Stack = <>
 </>
 
 const NextjsProject = <>
-<a className="font-bold" href="https://github.com/jamoowen/Portfolio-Next/">This Website: </a> 
+<a className="font-bold font-mono text-xl" href="https://github.com/jamoowen/Portfolio-Next/">This Website: </a> <br/>
+<a className="font-bold font-mono text-purple-500" href="https://github.com/jamoowen/Portfolio-Next/">Github link </a> <br/>
 The most recent and relevant of my current projects
 is this very web application made with Next.js 13. Prior to this, most of my projects and development experience has been 
 in Python and Solidity. I began reading into React initially to create a ui for a smart contract I was writing,
@@ -23,7 +24,8 @@ I will create with it! <br />
 </>
 
 const SolidityProject = <>
-<a className="font-bold" href="https://github.com/jamoowen/solidity/">Smart Contracts: </a> 
+<a className="font-bold font-mono text-xl" href="https://github.com/jamoowen/solidity/">Smart Contracts: </a> <br/>
+<a className="font-bold font-mono text-purple-500" href="https://github.com/jamoowen/solidity/">Github link </a> <br/>
 The next project is not just a single project, but a collection of projects (Smart Contracts) created whilst following 
 Patrick Collins' Solidity course. <br />
 
@@ -36,7 +38,8 @@ my Github should be updated shortly...
 </>
 
 const BreadthFirstSearchProject = <>
-<a className="font-bold" href="https://github.com/jamoowen/breadth_first_search/">Six Degrees of Separation:</a> 
+<a className="font-bold font-mono text-xl" href="https://github.com/jamoowen/breadth_first_search/">Six Degrees of Separation:</a> <br/>
+<a className="font-bold font-mono text-purple-500" href="https://github.com/jamoowen/breadth_first_search/">Github link </a> <br/>
 This was a project I completed to satisfy my curiousity of searching Algorithms and what they are used for in practice.
  <br/>
  The Projects implements the breadth first search algorith, to find the shortest link between any two holywood actors.
