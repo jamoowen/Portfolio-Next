@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
     
     <main>
 
-      <nav className="flex sm:justify space-x-4 font-pixel">
+      <nav className="flex sm:justify space-x-4 font-pixel font-white">
 
         {links.map((l, i) =>
           <Link className=' hover:bg-matrix-50' style={{

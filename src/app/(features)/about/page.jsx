@@ -60,7 +60,7 @@ export default function Home() {
                 </div>
                
                 <div className="flex flex-col ml-10 p-5 font-mono">
-                <div className="mb-4">
+                <div className="mb-4 font-mono">
                         {"I'm James, a Full Stack Developer."} <br/>
                          Click the buttons find out more. 
             
