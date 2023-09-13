@@ -61,7 +61,7 @@ export default function Home() {
                
                 <div className="flex flex-col ml-10 p-5 font-mono">
                 <div className="mb-4">
-                        I'm James, a fullstack developer. <br/>
+                        {"I'm James, a fullstack developer."} <br/>
                          Click the buttons find out more. 
             
                     </div>
