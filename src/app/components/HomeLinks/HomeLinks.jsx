@@ -41,8 +41,6 @@ export default function HomeLinks() {
             {links.map((l, i) =>
 
                 <Link className='' style={{
-
-                  
                 }}
                     key={i}
                     href={l.path}>
