@@ -20,7 +20,7 @@ is this very web application made with Next.js 13. Prior to this, most of my pro
 in Python and Solidity. I began reading into React initially to create a ui for a smart contract I was writing,
 and then decided to learn Next.js. I have thorougly enjoyed using the Next.js framework and am excited for all the 
 future projects and applications that I will create with it. 
-I will create with it! <br />
+ <br/>
 </>
 
 const SolidityProject = <>
@@ -42,7 +42,7 @@ const BreadthFirstSearchProject = <>
 <a className="font-bold font-mono text-purple-500" href="https://github.com/jamoowen/breadth_first_search/">Github link </a> <br/>
 This was a project I completed to satisfy my curiousity of searching Algorithms and what they are used for in practice.
  <br/>
- The Projects implements the breadth first search algorith, to find the shortest link between any two holywood actors.
+ The Projects implements the breadth first search algorith, to find the shortest link between any two Hollywood actors.
  It uses an IMDB data source and can prove that there is a maximum of six degrees of Separation between actors. Whilst 
  testing, I found that there was mostly only two to three degrees of separation between most actors which I found extremely 
  Interesting.

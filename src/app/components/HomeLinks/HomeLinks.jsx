@@ -49,7 +49,7 @@ export default function HomeLinks() {
                     <div className='font-pixel hover:text-matrix-50 hover:text-2xl  p-5'>
 
 
-                        {l.path}
+                        {l.label}
 
                     </div>
 
