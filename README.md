@@ -6,3 +6,5 @@ This project is intended to be set up for CI/CD and so I will continuously add f
 
 It was an absolute pleasure dipping my toe into Next and its most definitely an area which I will continue mastering and building things with.
 
+Deployed with Vercel.
+
