@@ -2,19 +2,24 @@
 "use client";
 
 import {
-    Button,
     Menu,
     MenuHandler,
     MenuList,
-    MenuItem
+    MenuItem,
+    Card,
+    Input,
+    Checkbox,
+    Button,
+    Typography,
+
 } from "@material-tailwind/react";
 
 import Link from "next/link";
+import { CollapsableEmailForm } from "@/app/components/CollapsableEmail";
 
 export default function Contact() {
 
     const contactList = [
-        { label: 'Email', path: 'mailto:011jamesowen@gmail.com?subject=Website' },
         { label: 'LinkedIn', path: 'https://www.linkedin.com/in/jamesowen24' },
         { label: 'GitHub', path: 'https://github.com/jamoowen' },
         { label: 'Twitter', path: 'https://twitter.com/jmsowen24' }
@@ -34,6 +39,10 @@ export default function Contact() {
                 {/* <a href="mailto:jamow.owen@gmail.com">TRY</a> */}
 
                 <ul role="list" className="divide-slate-200">
+                    <div className="mb-4" >
+                        <CollapsableEmailForm />
+                    </div>
+
                     {contactList.map((l, i) => (
                         <div className="mb-4" key={i}> {/* Add the key prop here */}
                             <a href={l.path} target="_blank">

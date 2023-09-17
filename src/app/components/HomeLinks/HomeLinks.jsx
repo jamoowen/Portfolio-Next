@@ -1,21 +1,14 @@
-"use client";
+// "use client";
 
 
 import '../../globals.css'
-import { Inter } from 'next/font/google'
-import Head from 'next/head'
+// import { Inter } from 'next/font/google'
+// import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
-import {
-    Card,
-    CardHeader,
-    CardBody,
-    CardFooter,
-    Typography,
-    Button,
-} from "@material-tailwind/react";
+// import Image from 'next/image'
 
-import { useState } from 'react';
+
+// import { useState } from 'react';
 
 
 export default function HomeLinks() {
