@@ -14,9 +14,9 @@ export function CustomAccordion({blogHeader, blogBody}) {
  
   return (
     <>
-      <Accordion open={alwaysOpen}>
-        <AccordionHeader className="text-sky-800 hover:text-sky-500" onClick={handleAlwaysOpen}>{blogHeader}</AccordionHeader>
-        <AccordionBody className="text-white">
+      <Accordion className="font-mono text-sm lg:text-2xl text-white" open={alwaysOpen}>
+        <AccordionHeader className="text-sky-600 hover:text-sky-400 text-sm lg:text-2xl" onClick={handleAlwaysOpen}>{blogHeader}</AccordionHeader>
+        <AccordionBody className="font-mono text-sm lg:text-2xl text-white">
        {blogBody}
         </AccordionBody>
       </Accordion>

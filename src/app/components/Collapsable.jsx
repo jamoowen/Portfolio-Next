@@ -25,9 +25,9 @@ export function Collapsable({ btnName, text, _className }) {
     return (
         <>
 
-            <Button color={openColor} fullWidth={true} size="md" className={_className} variant="gradient" onClick={toggleOpen}>{btnName}</Button>
+            <Button color={openColor} fullWidth={true} size="lg" className={`${_className} font-mono`} style={{textTransform:"none"}} variant="gradient" onClick={toggleOpen}>{btnName}</Button>
             <Collapse open={openCollapse}>
-                <Card className="font-mono text-white bg-transparent">
+                <Card className=" text-white bg-transparent">
                     <CardBody >
         
                             {text}

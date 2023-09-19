@@ -25,7 +25,7 @@ function RenderResume({ handleResumeClick }) {
     return (
         <>
             <div>
-                <Button onClick={handleResumeClick} color="white" fullWidth={false} size="sm" width="20" className="font-mono" variant="gradient">Hide</Button>
+                <Button onClick={handleResumeClick} color="white" fullWidth={false} size="sm" width="20" className="" variant="gradient">Hide</Button>
             </div>
 
             <iframe className="" src="https://drive.google.com/file/d/15yfWN9GGNVtCx-q8-ivP1ILegWzO4rk1/preview" width="300" height="300" allow="autoplay"></iframe>
@@ -55,26 +55,26 @@ export default function Home() {
 
                 </div>
                
-                <div className="flex flex-col ml-10 p-5 font-mono">
-                <div className="mb-4 font-mono">
+                <div className="flex flex-col ml-10 p-5 ">
+                <div className="mb-10 ">
                         {"I'm James, a Full Stack Developer."} <br/>
                          Click the buttons to find out more
             
                     </div>
                     <div className="mb-4">
-                        <Collapsable btnName="My experience" fullWidth={true} text={Experience} _className="font-mono w-80" />
+                        <Collapsable btnName="My experience" fullWidth={true} text={Experience} _className=" w-80" />
                     </div>
                     <div className="mb-4">
-                        <Collapsable  btnName="Tech Stack" fullWidth={true} text={Stack} _className="font-mono w-80"/>
+                        <Collapsable  btnName="Tech Stack" fullWidth={true} text={Stack} _className=" w-80"/>
                     </div>
                     <div className="mb-4">
                         <Collapsable btnName="Projects" fullWidth={true} text={
                             <>
-                        <Collapsable className="mb-4" btnName="Next.js App" text={NextjsProject} _className="font-mono w-64 mb-2"/>
-                        <Collapsable className="mb-4" btnName="Smart Contracts" text={SolidityProject} _className="font-mono w-64 mb-2"/>
-                        <Collapsable className="mb-4" btnName="Six Degrees of Separation" text={BreadthFirstSearchProject} _className="font-mono w-64 mb-2"/>
+                        <Collapsable className="mb-4" btnName="Next.js App" text={NextjsProject} _className=" w-64 mb-2"/>
+                        <Collapsable className="mb-4" btnName="Smart Contracts" text={SolidityProject} _className=" w-64 mb-2"/>
+                        <Collapsable className="mb-4" btnName="Six Degrees of Separation" text={BreadthFirstSearchProject} _className=" w-64 mb-2"/>
                         </>
-                        } _className="font-mono w-80" />
+                        } _className=" w-80" />
                     </div>
                     
 
@@ -83,8 +83,8 @@ export default function Home() {
                     <div className="mb-4">
                         <Menu>
                             <MenuHandler>
-                                <Button color="white" fullWidth={false} size="md" className="font-mono" variant="gradient">
-                                    CV/Résumé</Button>
+                                <Button color="white" fullWidth={false} size="md" className="font-mono " style={{textTransform:"none"}} variant="gradient">
+                                    CV/Resume</Button>
                             </MenuHandler>
                             <MenuList>
                                 <MenuItem onClick={handleResumeClick}>
@@ -99,7 +99,7 @@ export default function Home() {
                         </Menu>
 
                     </div>
-                    <div className="flex flex-col ml-10 p-5 font-mono items-left">
+                    <div className="flex flex-col ml-10 p-5  items-left">
                         {resumeVisibility && <RenderResume handleResumeClick={handleResumeClick} />}
                     </div>
 

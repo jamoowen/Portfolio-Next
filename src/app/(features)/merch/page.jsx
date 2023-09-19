@@ -22,12 +22,12 @@ export default function Home() {
                 <h1 className="text-3xl font-bold font-pixel text-matrix-50 mb-4">
                         Store
                     </h1>
-                    <div className="font-mono mb-4">
+                    <div className=" mb-4">
                         Coming soon... <Spinner color="green" />
                     </div>
 
                 </div>
-                <div className="flex flex-col ml-10 p-5 font-mono">
+                <div className="flex flex-col ml-10 p-5 ">
                   
                 </div>
             </main>

@@ -9,6 +9,23 @@ module.exports = withMT({
     "./node_modules/@material-tailwind/react/theme/components/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
+    screens: {
+      'sm': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'md': '768px',
+      // => @media (min-width: 768px) { ... }
+
+      'lg': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'xl': '1280px',
+      // => @media (min-width: 1280px) { ... }
+
+      '2xl': '1536px',
+      // => @media (min-width: 1536px) { ... }
+    },
+
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
@@ -43,16 +60,17 @@ module.exports = withMT({
     fontFamily: {
       'sans': ['Noto Sans',],
       'serif': ['Cambria', 'Georgia',],
-      'mono': ['Courier New', 'Menlo'],
+      'mono': ['ui-monospace', 'Menlo'],
       'pixel': ['"Press Start 2P"', 'Courier New'],
     },
+    
     
     typography: {
       defaultProps: {
         variant: "paragraph",
         color: "inherit",
         textGradient: false,
-        className: "font-mono",
+        className: "",
       },
       valid: {
         variants: [
@@ -98,10 +116,11 @@ module.exports = withMT({
             display: "block",
             fontSmoothing: "antialiased",
             letterSpacing: "tracking-normal",
-            fontFamily: "font-sans",
-            fontSize: "text-5xl",
+            fontFamily: "",
+            fontSize: "text-xl",
             fontWeight: "font-semibold",
             lineHeight: "leading-tight",
+            color: "text-black",
           },
           h2: {
             display: "block",
@@ -159,7 +178,7 @@ module.exports = withMT({
           paragraph: {
             display: "block",
             fontSmoothing: "antialiased",
-            fontFamily: "font-mono",
+            fontFamily: "",
             fontSize: "text-base",
             fontWeight: "font-light",
             lineHeight: "leading-relaxed",
@@ -169,6 +188,7 @@ module.exports = withMT({
             fontSmoothing: "antialiased",
             fontFamily: "font-sans",
             fontSize: "text-sm",
+            
             fontWeight: "font-light",
             lineHeight: "leading-normal",
           },

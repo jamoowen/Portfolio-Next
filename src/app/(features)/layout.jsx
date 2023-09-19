@@ -24,24 +24,24 @@ export default function RootLayout({ children }) {
     // { label: 'Store', path: '/merch' },
 
   ]
+  
+
 // import su from "../../../public/images/subtle"
 
   return (
     <>
     
-    <main>
+    <main className=''>
 
       <nav className="flex sm:justify space-x-4 font-pixel font-white">
 
         {links.map((l, i) =>
           <Link className='text-white hover:bg-matrix-50' style={{
             padding: '0.9rem',
-            font: 'font-mono'
+            font: ''
           }}
             key={i}
             href={l.path}>
-
-
             {l.label}
           </Link>
         )}

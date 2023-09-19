@@ -16,8 +16,8 @@ const Stack = <>
 </>
 
 const NextjsProject = <>
-<a className="font-bold font-mono text-xl" href="https://github.com/jamoowen/Portfolio-Next/" target="_blank">This Website: </a> <br/>
-<a className="font-bold font-mono text-purple-500" href="https://github.com/jamoowen/Portfolio-Next/" target="_blank">Github link </a> <br/>
+<a className="font-bold  text-xl" href="https://github.com/jamoowen/Portfolio-Next/" target="_blank">This Website: </a> <br/>
+<a className="font-bold  text-purple-500" href="https://github.com/jamoowen/Portfolio-Next/" target="_blank">Github link </a> <br/>
 The most recent and relevant of my current projects
 is this very web application made with Next.js 13. Prior to this, most of my projects and development experience has been 
 in Python and Solidity. I began reading into React initially to create a ui for a smart contract I was writing,
@@ -27,8 +27,8 @@ future projects and applications that I will create with it.
 </>
 
 const SolidityProject = <>
-<a className="font-bold font-mono text-xl" href="https://github.com/jamoowen/solidity/" target="_blank">Smart Contracts: </a> <br/>
-<a className="font-bold font-mono text-purple-500" href="https://github.com/jamoowen/solidity/" target="_blank">Github link </a> <br/>
+<a className="font-bold  text-xl" href="https://github.com/jamoowen/solidity/" target="_blank">Smart Contracts: </a> <br/>
+<a className="font-bold  text-purple-500" href="https://github.com/jamoowen/solidity/" target="_blank">Github link </a> <br/>
 The next project is not just a single project, but a collection of projects (Smart Contracts) created whilst following 
 Patrick Collins' Solidity course. <br />
 
@@ -41,8 +41,8 @@ my Github should be updated shortly...
 </>
 
 const BreadthFirstSearchProject = <>
-<a className="font-bold font-mono text-xl" href="https://github.com/jamoowen/breadth_first_search/" target="_blank">Six Degrees of Separation:</a> <br/>
-<a className="font-bold font-mono text-purple-500" href="https://github.com/jamoowen/breadth_first_search/" target="_blank">Github link </a> <br/>
+<a className="font-bold  text-xl" href="https://github.com/jamoowen/breadth_first_search/" target="_blank">Six Degrees of Separation:</a> <br/>
+<a className="font-bold  text-purple-500" href="https://github.com/jamoowen/breadth_first_search/" target="_blank">Github link </a> <br/>
 This was a project I completed to satisfy my curiousity of searching Algorithms and what they are used for in practice.
  <br/>
  The Projects implements the breadth first search algorith, to find the shortest link between any two Hollywood actors.

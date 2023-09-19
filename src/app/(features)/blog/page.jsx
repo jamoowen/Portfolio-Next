@@ -25,8 +25,7 @@ import { Collapsable } from "@/app/components/Collapsable";
 
 
 export default function Home() {
-    const article1 = articles[0];
-    const articleheader = article1.header
+
 
     return (
         <>
@@ -40,24 +39,21 @@ export default function Home() {
 
                 </div>
 
-                <div className="flex flex-col ml-10 p-5 font-mono">
-                    <div className="mb-4 font-mono">
-                        You can read the summaries of some of my blog posts below. They have links to the full article
-                        on my <a className="text-sky-600" href="https://medium.com/@jamesowen.dev"> Medium Blog.</a>
+                <div className="flex flex-col ml-10 mr-20 p-5 ">
+                    <div className="mb-4 ">
+                        You can read the summaries of some of my blog posts below.<br/>
+                        They have links to the full article on my 
+                        <a className="text-sky-500" href="https://medium.com/@jamesowen.dev" target="_blank"> Medium Blog.</a>
                         <br />
 
 
                     </div>
                     {articles.map((l, i) =>
                      
-                        <CustomAccordion key={i} blogHeader={l.header} blogBody={l.body} />
+
+                            <CustomAccordion key={i} blogHeader={l.header} blogBody={l.body} />
+                 
                     )}
-                    <div className="mb-4">
-
-                    </div>
-                    <div className="mb-4">
-
-                    </div>
 
                 </div>
             </main>
