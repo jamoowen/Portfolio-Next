@@ -38,7 +38,7 @@ export default function HomeLinks() {
                 }}
                     key={i}
                     href={l.path}>
-                    <div className='font-pixel hover:text-matrix-50 hover:text-2xl  p-5'>
+                    <div className='font-pixel text-white hover:text-matrix-50 hover:text-2xl  p-5'>
 
 
                         {l.label}
