@@ -2,19 +2,10 @@
 "use client";
 
 import {
-    Menu,
-    MenuHandler,
-    MenuList,
-    MenuItem,
-    Card,
-    Input,
-    Checkbox,
     Button,
-    Typography,
 
 } from "@material-tailwind/react";
 
-import Link from "next/link";
 import { CollapsableEmailForm } from "@/app/components/CollapsableEmail";
 
 export default function Contact() {
@@ -22,7 +13,8 @@ export default function Contact() {
     const contactList = [
         { label: 'LinkedIn', path: 'https://www.linkedin.com/in/jamesowen24' },
         { label: 'GitHub', path: 'https://github.com/jamoowen' },
-        { label: 'Twitter', path: 'https://twitter.com/jmsowen24' }
+        { label: 'Twitter', path: 'https://twitter.com/jmsowen24' },
+        { label: 'Medium', path: 'https://medium.com/@jamesowen.dev'},
     ]
 
 

@@ -15,8 +15,9 @@ export default function HomeLinks() {
     const links = [
         { label: 'About', path: '/about' },
         { label: 'Contact', path: '/contact' },
-        { label: 'Store', path: '/merch' },
-        { label: 'Donate', path: '/donate' }
+        { label: 'Blog', path: '/blog' },
+        // { label: 'Store', path: '/merch' },
+        // { label: 'Donate', path: '/donate' },
     ]
     const detail = {
         'About': 'Find out about me',

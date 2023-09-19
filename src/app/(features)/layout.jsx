@@ -18,9 +18,11 @@ export default function RootLayout({ children }) {
   const links = [
     { label: 'Home', path: '/' },
     { label: 'About', path: '/about' },
-    { label: 'Store', path: '/merch' },
     { label: 'Contact', path: '/contact' },
-    { label: 'Donate', path: '/donate' }
+    { label: 'Blog', path: '/blog' },
+    // { label: 'Donate', path: '/donate' },
+    // { label: 'Store', path: '/merch' },
+
   ]
 // import su from "../../../public/images/subtle"
 

@@ -1,3 +1,6 @@
+// NOTE !!! MUST EXPORT ALL VARS AT BOTTOM OF PAGE 
+
+
 const Experience = <>I have extensive commercial experience as a backend developer, primarily using Python and SQL. During my current tenure, I have worked on my company's proprietary data modeling software,
   developing new features in an agile environment. I wrote clean, testable code, adhering to the best practices of Software Development. Additionally, I ran many different
   products as part of the SAAS offered to clients. I used a diverse range of technologies and have been exposed to different architectures and paradigms. 
