@@ -1,18 +1,20 @@
 // NOTE !!! MUST EXPORT ALL VARS AT BOTTOM OF PAGE 
 
 
-const Experience = <>I have extensive commercial experience as a backend developer, primarily using Python and SQL. During my current tenure, I have worked on my company's proprietary data modeling software,
-  developing new features in an agile environment. I wrote clean, testable code, adhering to the best practices of Software Development. Additionally, I ran many different
-  products as part of the SAAS offered to clients. I used a diverse range of technologies and have been exposed to different architectures and paradigms. 
-  I have since become more interested in fullstack development and Web3 and
-  have been steadily learning and building projects to further my understanding.</>
+const Experience = <>Most of my commercial experience has revolved around Python and SQL, but I am a full stack engineer at 
+  heart and am improving my front end skills every day. 
+  During my current tenure, I have worked on my company's proprietary data modeling software,
+  developing new features and creating and maintaining data pipelines to feed and support the software. 
+  I wrote clean, testable code, adhering to the best practices of Software Development. Additionally, I ran many of the different
+  products my company offered to clients, on a BAU basis. I used a diverse range of technologies and have been exposed to different architectures and paradigms. 
+</>
 
 const Stack = <>
   <span className="font-bold">Languages:</span> Python, Javascipt, Solidity, SQL <br />
   <span className="font-bold">Libraries and Frameworks:</span> Next.js 13, React, Ethers.js, Apache Spark, Django,  <br />
   <span className="font-bold">Technologies:</span> Hardhat, ADF, Databricks, Ganache, Brownie, Gitlab, GitHub <br />
   <span className="font-bold">Clouds:</span> Azure, AWS, GCP <br />
-  <span className="font-bold">Skills:</span> Web development, Smart Contract Development, ETL, OOP, Unix & Windows shell <br />
+  <span className="font-bold">Skills:</span> Web development, Smart Contract Development, ETL, OOP, Unix & Windows shell, Data Engineering <br />
 </>
 
 const NextjsProject = <>
