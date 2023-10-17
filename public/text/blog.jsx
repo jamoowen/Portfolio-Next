@@ -3,6 +3,24 @@ import { Button } from "@material-tailwind/react";
 
 const articles = [
     {
+        header: "EigenLayer: An ETH restaking protocol supercharging off-chain security",
+        body:
+            <>
+                <a href="https://medium.com/@jamesowen.dev/eigenlayer-an-eth-restaking-protocol-supercharging-off-chain-security-04897f4e3154" target="_blank">
+                    <Button size="sm" color="blue" className="mb-2 " >
+                        Full article
+                    </Button>
+                </a>
+
+                <div>
+                EigenLayer is an Ethereum layer 2 protocol which enables restaking — a process of reusing staked ETH or 
+                Liquid Staking Tokens (LST) to extend Ethereum's security features to off-chain Actively Validated Services (AVS's). 
+                EigenLayer's goal is to improve security, flexibility, scalability and allow for more efficient development across the 
+                Ethereum ecosystem.
+                </div>
+            </>
+    },
+    {
         header: "Sending emails with Next.js 13 and Nodemailer",
         body:
             <>
@@ -22,6 +40,7 @@ const articles = [
                 </div>
             </>
     },
+    
 ]
 // const BreadthFirstSearchProject = <>
 // <a className="font-bold  text-xl" href="https://github.com/jamoowen/breadth_first_search/" target="_blank">Six Degrees of Separation:</a> <br/>

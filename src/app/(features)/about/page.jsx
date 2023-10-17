@@ -28,7 +28,7 @@ function RenderResume({ handleResumeClick }) {
                 <Button onClick={handleResumeClick} color="white" fullWidth={false} size="sm" width="20" className="" variant="gradient">Hide</Button>
             </div>
 
-            <iframe className="" src="https://drive.google.com/file/d/15yfWN9GGNVtCx-q8-ivP1ILegWzO4rk1/preview" width="300" height="300" allow="autoplay"></iframe>
+            <iframe className="" src="https://drive.google.com/file/d/1WFtwIqwT4EQ-oV51h5ZgFbcLxgz5uqIT/preview" width="300" height="300" allow="autoplay"></iframe>
         </>
     )
 }
@@ -51,8 +51,6 @@ export default function Home() {
                     <h1 className="text-3xl font-bold font-pixel text-matrix-50">
                         About
                     </h1>
-
-
                 </div>
                
                 <div className="flex flex-col ml-10 p-5 ">
@@ -92,7 +90,7 @@ export default function Home() {
                                 </MenuItem>
 
                                 <MenuItem>
-                                    <a href="https://drive.google.com/file/d/15yfWN9GGNVtCx-q8-ivP1ILegWzO4rk1/view?usp=sharing" target="_blank">Download PDF</a>
+                                    <a href="https://drive.google.com/file/d/1WFtwIqwT4EQ-oV51h5ZgFbcLxgz5uqIT/view?usp=sharing" target="_blank">Download PDF</a>
                                 </MenuItem>
 
                             </MenuList>
