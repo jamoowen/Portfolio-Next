@@ -11,7 +11,7 @@ const Experience = <>Most of my commercial experience has revolved around Python
 
 const Stack = <>
   <span className="font-bold">Languages:</span> Python, Javascipt, Solidity, SQL <br />
-  <span className="font-bold">Libraries and Frameworks:</span> Next.js 13, React, Ethers.js, Apache Spark, Django,  <br />
+  <span className="font-bold">Libraries and Frameworks:</span> Next.js 13, React, Ethers.js, Apache Spark, Flask,  <br />
   <span className="font-bold">Technologies:</span> Hardhat, ADF, Databricks, Ganache, Brownie, Gitlab, GitHub <br />
   <span className="font-bold">Clouds:</span> Azure, AWS, GCP <br />
   <span className="font-bold">Skills:</span> Web development, Smart Contract Development, ETL, OOP, Unix & Windows shell, Data Engineering <br />

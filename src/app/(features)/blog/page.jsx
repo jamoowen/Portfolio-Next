@@ -29,10 +29,10 @@ export default function Home() {
 
     return (
         <>
-            <main className="flex min-h-screen flex-col items-left">
+            <main className="flex min-h-screen flex-col items-left text-white">
 
                 <div className="flex-col ml-10 p-5">
-                    <h1 className="text-3xl font-bold font-pixel text-matrix-50">
+                    <h1 className="text-3xl font-bold font-pixel text-cyan-500">
                         Blog
                     </h1>
 

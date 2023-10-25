@@ -18,10 +18,10 @@ export default function Contact() {
     ]
 
     return (
-        <main className="flex min-h-screen flex-col items-left">
+        <main className="flex min-h-screen flex-col items-left text-white">
 
             <div className="flex-col ml-10 p-5">
-                <h1 className="text-3xl font-bold font-pixel text-matrix-50">
+                <h1 className="text-3xl font-bold font-pixel text-cyan-500">
                     Contact
                 </h1>
             </div>
@@ -72,7 +72,7 @@ export default function Contact() {
 //             <main className="flex min-h-screen flex-col items-left">
 
 //                 <div className="ml-10 p-5">
-//                     <h1 className="text-3xl font-bold font-pixel text-matrix-50">
+//                     <h1 className="text-3xl font-bold font-pixel text-cyan-500">
 //                         contact
 //                     </h1>
 //                     <p className="">

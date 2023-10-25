@@ -3,6 +3,48 @@ import { Button } from "@material-tailwind/react";
 
 const articles = [
     {
+        header: "Ethereum layer 2 scaling solutions: Zero Knowledge and Optimistic rollups explained.",
+        body:
+            <>
+                <a href="https://medium.com/@jamesowen.dev/ethereum-layer-2-scaling-solutions-zero-knowledge-and-optimistic-rollups-explained-ab4eebadca76" target="_blank">
+                    <Button size="sm" color="blue" className="mb-2 " >
+                        Full article
+                    </Button>
+                </a>
+
+                <div>
+                Rollups are an Ethereum layer 2 scaling solution that takes computation off-chain, improving transaction 
+                speed and significantly reducing gas fees. Although rollups perform their work off-chain, they keep transaction 
+                data on the Ethereum mainnet and are thus able to derive security from it, maintaining trust. Zero Knowledge 
+                rollups work by using validity proofs to verify that the off-chain transactions are genuine but are 
+                complicated to implement and computationally expensive. Optimistic rollups assume that all transactions are 
+                genuine and allow users to challenge transaction legitimacy, triggering fraud proofs that have the ability 
+                to roll transactions back.
+                </div>
+            </>
+    },
+    {
+        header: "Real World Asset tokenization: The future of financial markets?",
+        body:
+            <>
+                <a href="https://medium.com/@jamesowen.dev/real-world-asset-tokenization-the-future-of-financial-markets-f19aa23c039e" target="_blank">
+                    <Button size="sm" color="blue" className="mb-2 " >
+                        Full article
+                    </Button>
+                </a>
+
+                <div>
+                The tokenization of Real World Assets (RWA's), is a way of enabling on-chain ownership of traditional assets 
+                that exist in traditional finance. Tokenizing these assets leverages the blockchain to enable faster 
+                settlements, fewer fees, greater transparency, etc. They pose an enticing investment for Defi users, who 
+                can now better diversify their crypto portfolios and gain exposure to other markets. They have shown tremendous 
+                growth in 2023, even gaining the attention of BlackRock CEO Larry Fink, who stated: 
+                “The next generation for securities will be tokenization”.
+
+                </div>
+            </>
+    },
+    {
         header: "EigenLayer: An ETH restaking protocol supercharging off-chain security",
         body:
             <>

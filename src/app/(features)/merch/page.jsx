@@ -19,7 +19,7 @@ export default function Home() {
             <main className="flex min-h-screen flex-col items-left">
 
                 <div className="ml-10 p-5">
-                <h1 className="text-3xl font-bold font-pixel text-matrix-50 mb-4">
+                <h1 className="text-3xl font-bold font-pixel text-cyan-500 mb-4">
                         Store
                     </h1>
                     <div className=" mb-4">
