@@ -21,13 +21,13 @@ export default function Contact() {
         <main className="flex min-h-screen flex-col items-left text-white">
 
             <div className="flex-col ml-10 p-5">
-                <h1 className="text-3xl font-bold font-pixel text-cyan-500">
-                    Contact
-                </h1>
+                <div className="text-3xl w-min font-bold font-pixel p-3 -rotate-6 text-white bg-gradient-to-r from-sky-600 to-indigo-500">
+                    <div className="rotate-6">Contact</div>
+                </div>
             </div>
             <div className="flex flex-col ml-10 p-5 ">
                 <div className="mb-10 ">
-                    You can contact me through any of the below methods <br/>
+                    You can contact me through any of the below methods <br />
                 </div>
 
 
@@ -72,7 +72,7 @@ export default function Contact() {
 //             <main className="flex min-h-screen flex-col items-left">
 
 //                 <div className="ml-10 p-5">
-//                     <h1 className="text-3xl font-bold font-pixel text-cyan-500">
+//                     <h1 className="text-3xl font-bold font-pixel text-white shadow-2xl">
 //                         contact
 //                     </h1>
 //                     <p className="">

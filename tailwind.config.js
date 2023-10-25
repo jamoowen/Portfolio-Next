@@ -255,7 +255,7 @@ module.exports = withMT({
             gradient: "bg-gradient-to-tr from-teal-600 to-teal-400",
           },
           cyan: {
-            color: "text-cyan-500",
+            color: "text-white shadow-2xl",
             gradient: "bg-gradient-to-tr from-cyan-600 to-cyan-400",
           },
           "light-blue": {

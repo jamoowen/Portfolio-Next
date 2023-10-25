@@ -16,7 +16,7 @@ export default function CardDefault({ name, path, detail }) {
 
 
   return (
-    <div className="flex bg-red-900 font-pixel mb-2 hover:bg-cyan-500">
+    <div className="flex bg-red-900 font-pixel mb-2 hover:bg-white shadow-2xl">
       {name}
     </div>
   );

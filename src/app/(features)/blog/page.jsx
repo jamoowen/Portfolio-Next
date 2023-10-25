@@ -32,9 +32,9 @@ export default function Home() {
             <main className="flex min-h-screen flex-col items-left text-white">
 
                 <div className="flex-col ml-10 p-5">
-                    <h1 className="text-3xl font-bold font-pixel text-cyan-500">
-                        Blog
-                    </h1>
+                <div className="text-3xl w-min font-bold font-pixel p-3 -rotate-6 text-white bg-gradient-to-r from-sky-600 to-indigo-500">
+                        <div className="rotate-6">Blog</div>
+                    </div>
 
 
                 </div>

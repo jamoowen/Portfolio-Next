@@ -33,10 +33,10 @@ export default function RootLayout({ children }) {
     
     <main className=''>
 
-      <nav className="flex sm:justify space-x-4 font-pixel font-white">
+      <nav className="flex sm:justify space-x-4 font-pixel bg-white text-black">
 
         {links.map((l, i) =>
-          <Link className='text-white hover:bg-cyan-500' style={{
+          <Link className=' hover:bg-blue-200 hover:bg-opacity-20 shadow-2xl' style={{
             padding: '0.9rem',
             font: ''
           }}
