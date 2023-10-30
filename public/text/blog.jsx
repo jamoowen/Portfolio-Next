@@ -3,6 +3,24 @@ import { Button } from "@material-tailwind/react";
 
 const articles = [
     {
+        header: "What is Uniswap? v1, v2, v3, v4?.",
+        body:
+            <>
+                <a href="https://medium.com/@jamesowen.dev/what-is-uniswap-v1-v2-v3-v4-563440e0885f" target="_blank">
+                    <Button size="sm" color="blue" className="mb-2 " >
+                        Full article
+                    </Button>
+                </a>
+
+                <div>
+                Uniswap is currently the biggest decentralized exchange in Web3 and at the time of writing, has over 
+                $3.3 billion of TVL (total value locked). They pioneered the automated market maker, which has become 
+                a cornerstone of decentralized finance. Since launching in 2018, they released v2 in 2020 and v3 in 2023, 
+                each with significant upgrades to the user experience and protocol function.
+                </div>
+            </>
+    },
+    {
         header: "Ethereum layer 2 scaling solutions: Zero Knowledge and Optimistic rollups explained.",
         body:
             <>
